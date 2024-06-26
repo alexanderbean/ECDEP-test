@@ -1,0 +1,92 @@
+{
+	"name": "electric_car_raw_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Electric_Vehicle_Population_Data.csv",
+				"container": "data-raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "VIN (1-10)",
+				"type": "String"
+			},
+			{
+				"name": "County",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "State",
+				"type": "String"
+			},
+			{
+				"name": "Postal Code",
+				"type": "String"
+			},
+			{
+				"name": "Model Year",
+				"type": "String"
+			},
+			{
+				"name": "Make",
+				"type": "String"
+			},
+			{
+				"name": "Model",
+				"type": "String"
+			},
+			{
+				"name": "Electric Vehicle Type",
+				"type": "String"
+			},
+			{
+				"name": "Clean Alternative Fuel Vehicle (CAFV) Eligibility",
+				"type": "String"
+			},
+			{
+				"name": "Electric Range",
+				"type": "String"
+			},
+			{
+				"name": "Base MSRP",
+				"type": "String"
+			},
+			{
+				"name": "Legislative District",
+				"type": "String"
+			},
+			{
+				"name": "DOL Vehicle ID",
+				"type": "String"
+			},
+			{
+				"name": "Vehicle Location",
+				"type": "String"
+			},
+			{
+				"name": "Electric Utility",
+				"type": "String"
+			},
+			{
+				"name": "2020 Census Tract",
+				"type": "String"
+			}
+		]
+	}
+}
