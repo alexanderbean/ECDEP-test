@@ -56,7 +56,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "electric_car_staging_data",
 						"type": "DatasetReference"
 					}
 				]

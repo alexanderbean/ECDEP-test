@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "electric_car_staging_data",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
