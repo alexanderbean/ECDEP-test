@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "raw_to_staging",
+				"description": "Move data from data_raw to data_staging. Keeps raw data untouched and copies data to staging to be transformed in Azure Databricks.",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
